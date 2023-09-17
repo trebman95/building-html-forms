@@ -1,0 +1,66 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Building HTML Forms
+    </title>
+</head>
+
+<body>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>
+                Add User
+            </legend>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email_address">
+            </div>
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="school_status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <p>Choose your favorite programming language</p>
+            <div>
+                <button type="submit">HTML</button>
+                <button type="submit">CSS</button>
+                <button type="submit">Javascript</button>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div>
+                <label for="date">Current Date</label>
+                <input type="text" id="date" name="current_date">
+            </div>
+            <div>
+                <label for="newsletter">Sign up for newsletter</label>
+                <input type="checkbox" id="newsletter" name="sign_up_for_newsletter">
+            </div>
+            <div>
+                <label for="conditions">Agree to terms and conditions</label>
+                <input type="checkbox" id="conditions" name="agree_to_terms_and_conditions">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
